@@ -1,13 +1,24 @@
 .container
-    display: grid
     width: 500px
     height: 400px
     margin: 100px auto 0
-    background: gray
-    grid-template-columns: auto auto auto auto
-    // grid-template-rows: auto auto
+
+    display: grid
+    grid-template-columns: repeat(4, auto)
     grid-gap: 1em
 
+
 .item
-    border: 5px solid red
+    border: 1px solid gray
+
+.item:nth-child(3)
+    background: red
+
+    grid-row: 2 / 3
+    grid-column: 1 / 4
+
+.item:last-child
+    background: green
+    grid-row: 3 / 4
+    grid-column: 2 / 5
 
