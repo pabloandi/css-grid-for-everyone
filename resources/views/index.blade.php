@@ -12,14 +12,15 @@
     <body>
 
         <div class="container">
-            <div class="item">1</div>
-            <div class="item">2</div>
-            <div class="item">3</div>
-            <div class="item">4</div>
-            <div class="item">5</div>
-            <div class="item">6</div>
-            <div class="item">7</div>
-            <div class="item">8</div>
+            <header>header area</header>
+            <nav>navigation area</nav>
+            <aside>
+                aside area
+            </aside>
+            <main>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam eum ducimus numquam minima nemo eveniet neque deserunt tempora optio, accusamus quod, dicta aperiam? Veniam fuga numquam rerum tempore dolores?
+            </main>
+            <footer>footer area </footer>
         </div>
 
 
