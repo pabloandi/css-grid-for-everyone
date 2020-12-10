@@ -11,17 +11,17 @@
     </head>
     <body>
 
-        <div class="container">
-            <header>header area</header>
-            <nav>navigation area</nav>
-            <aside>
-                aside area
-            </aside>
-            <main>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam eum ducimus numquam minima nemo eveniet neque deserunt tempora optio, accusamus quod, dicta aperiam? Veniam fuga numquam rerum tempore dolores?
-            </main>
-            <footer>footer area </footer>
-        </div>
+        <section id="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </section>
 
 
     </body>
